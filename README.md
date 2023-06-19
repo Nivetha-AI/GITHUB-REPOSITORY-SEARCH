@@ -12,7 +12,7 @@ User-Friendly Interface: The project provides an intuitive interface that is eas
 
 Fast and Efficient: The tool utilizes efficient algorithms to process repository data quickly, providing instant results.
 
-#Technology Used 
+# Technology used
 Django 
 Python
 Deployed in Python anywhere

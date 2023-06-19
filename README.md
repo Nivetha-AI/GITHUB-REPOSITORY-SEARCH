@@ -14,6 +14,8 @@ Fast and Efficient: The tool utilizes efficient algorithms to process repository
 
 # Technology used
 Django 
+
 Python
+
 Deployed in Python anywhere
 

@@ -7,9 +7,9 @@ from github import Github
 from django.http import JsonResponse
 from django.shortcuts import render
 from django.http import HttpResponseServerError
-
-openai.api_key = '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'
-
+from decouple import config
+openai.api_key = config('OPENAI_API_KEY')
+github_token=config('GITHUB_TOKEN')
 def extract_username_from_url(url):
     # Regular expression pattern to extract the username from the URL
     pattern = r"github.com/([^/]+)"
@@ -26,7 +26,7 @@ def extract_username_from_url(url):
 def retrieve_user_repositories(username, extensions, langchain=None):
     try:
         # Authenticate using your personal access token
-        g =Github("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")
+        g =Github(github_token)
 
         # Retrieve the user
         user = g.get_user(username)

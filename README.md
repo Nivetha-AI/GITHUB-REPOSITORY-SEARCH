@@ -11,3 +11,9 @@ Complexity Analysis: Assess the complexity of a repository based on factors such
 User-Friendly Interface: The project provides an intuitive interface that is easy to use and understand.
 
 Fast and Efficient: The tool utilizes efficient algorithms to process repository data quickly, providing instant results.
+
+#Technology Used 
+Django 
+Python
+Deployed in Python anywhere
+
